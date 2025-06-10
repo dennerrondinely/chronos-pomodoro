@@ -1,9 +1,10 @@
+import { Container } from "./components/Container";
+import { Logo } from "./components/Logo";
+
 export function App() {
   return (
-    <div className="container">
-      <div className="content">
-        <section></section>
-      </div>
-    </div>
+    <Container>
+      <Logo />
+    </Container>
   );
 }
